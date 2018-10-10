@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/bin/node /Users/wyatt.barnes/.yarn/bin/yarn.js add --dev @babel/cli @babel/core @babel/plugin-proposal-class-properties @babel/preset-env @babel/preset-react @babel/preset-typescript @babel/runtime @storybook/addon-actions @storybook/addon-viewport @storybook/addons @storybook/react @types/react @types/jest @types/react-dom @types/storybook__addon-actions @types/storybook__react @types/styled-components babel-loader html-webpack-plugin jest react react-dom source-map styled-components ts-jest tslint typescript webpack wepack-cli webpack-dev-server
+
+PATH: 
+  /Users/wyatt.barnes/.opam/4.06.1/bin:/Users/wyatt.barnes/.cargo/bin:/Users/wyatt.barnes/.rvm/gems/ruby-2.4.1/bin:/Users/wyatt.barnes/.rvm/gems/ruby-2.4.1@global/bin:/Users/wyatt.barnes/.rvm/rubies/ruby-2.4.1/bin:/Users/wyatt.barnes/Library/Android/sdk/tools:/Users/wyatt.barnes/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/wyatt.barnes/Downloads/cocos2d-x-3.13/templates:/Users/wyatt.barnes/Downloads:/Users/wyatt.barnes/Downloads/cocos2d-x-3.13/tools/cocos2d-console/bin:/Users/wyatt.barnes/.yarn/bin:/Users/wyatt.barnes/.config/yarn/global/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/share/dotnet:/Users/wyatt.barnes/.opam/4.06.1/bin:/Users/wyatt.barnes/.cargo/bin:/Users/wyatt.barnes/.rvm/gems/ruby-2.4.1/bin:/Users/wyatt.barnes/.rvm/gems/ruby-2.4.1@global/bin:/Users/wyatt.barnes/.rvm/rubies/ruby-2.4.1/bin:/Users/wyatt.barnes/Library/Android/sdk/tools:/Users/wyatt.barnes/Library/Android/sdk/platform-tools:/Library/Frameworks/Python.framework/Versions/3.5/bin:/Users/wyatt.barnes/Downloads/cocos2d-x-3.13/templates:/Users/wyatt.barnes/Downloads:/Users/wyatt.barnes/Downloads/cocos2d-x-3.13/tools/cocos2d-console/bin:/Users/wyatt.barnes/.nvm/versions/node/v9.11.1/bin:/Users/wyatt.barnes/.yarn/bin:/Users/wyatt.barnes/.config/yarn/global/node_modules/.bin:/Users/wyatt.barnes/.rvm/bin:/Users/wyatt.barnes/.rvm/bin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  9.11.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/wepack-cli: Not found
+      at Request.params.callback [as _callback] (/Users/wyatt.barnes/.yarn/lib/cli.js:64202:18)
+      at Request.self.callback (/Users/wyatt.barnes/.yarn/lib/cli.js:137468:22)
+      at Request.emit (events.js:180:13)
+      at Request.<anonymous> (/Users/wyatt.barnes/.yarn/lib/cli.js:138440:10)
+      at Request.emit (events.js:180:13)
+      at IncomingMessage.<anonymous> (/Users/wyatt.barnes/.yarn/lib/cli.js:138362:12)
+      at Object.onceWrapper (events.js:272:13)
+      at IncomingMessage.emit (events.js:185:15)
+      at endReadableNT (_stream_readable.js:1106:12)
+      at process._tickCallback (internal/process/next_tick.js:178:19)
+
+npm manifest: 
+  {
+    "name": "the-clone-wars",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
